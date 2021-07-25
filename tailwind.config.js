@@ -10,6 +10,13 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    colors: {
+      'primary': '#333333',
+      'primary-bg': '#F9F7F5',
+      'nc-sage': '#90A892',
+      'nc-dark-sage': '#435944',
+      ...defaultTheme.colors
+    },
     extend: {
       fontFamily: {
         serif: ['Roboto', ...defaultTheme.fontFamily.serif]
