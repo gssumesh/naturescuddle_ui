@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 const StyledButton = styled.button.attrs<ButtonProps>(
   ({ variant }: { variant: ButtonVariants}) => ({
-    className: `px-8 py-2 font-semibold ${
-      variant === 'default' ? 'text-white' : 'text-red-700'
-    } transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-red-300 to-blue-300 hover:from-pink-400 hover:to-indigo-400`,
+    className: `px-16 py-4 font-thin font-serif ${
+      variant === 'default' ? 'text-black hover:text-white' : 'text-red-700 hover:text-white'
+    } rounded-none border border-black transition duration-500 ease-in-out bg-white hover:bg-black`,
   })
 )<{ variant: ButtonVariants }>``;
 
@@ -22,7 +22,8 @@ export const Button: FC<ButtonProps> = ({
 }) => {
   return (
     <StyledButton variant={variant} {...rest}>
-      {text}
+      {text.toLocaleUpperCase()}
+      {/* <button className="border-black bg-black font-serif"></button> */}
     </StyledButton>
   );
 };

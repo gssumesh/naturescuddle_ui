@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   purge: [
     './src/components/**/*.tsx',
@@ -8,7 +10,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        serif: ['Roboto', ...defaultTheme.fontFamily.serif]
+      },
+    },
   },
   variants: {
     extend: {},
