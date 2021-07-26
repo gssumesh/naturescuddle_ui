@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        serif: ['Roboto', ...defaultTheme.fontFamily.serif]
+        serif: ['Varela Round','Roboto', ...defaultTheme.fontFamily.serif]
       },
     },
   },
