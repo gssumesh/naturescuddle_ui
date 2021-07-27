@@ -19,7 +19,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        serif: ['Varela Round','Roboto', ...defaultTheme.fontFamily.serif]
+        serif: ['Varela Round','Roboto', ...defaultTheme.fontFamily.serif],
+        sans: ['Flamenco', ...defaultTheme.fontFamily.sans]
       },
     },
   },

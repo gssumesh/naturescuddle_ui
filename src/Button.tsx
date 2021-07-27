@@ -7,8 +7,8 @@ const StyledButton = styled.button.attrs<ButtonProps>(
     className: `w-80 px-16 py-4 font-thin font-serif ${
       variant === 'loading' 
       ? 'text-white bg-nc-sage' 
-      : 'text-primary bg-primary-bg hover:text-white hover:bg-nc-sage'
-    } rounded-none border border-primary transition duration-500 ease-in-out`,
+      : 'text-gray-500 bg-primary-bg hover:text-white hover:bg-nc-sage'
+    } rounded-none border border-gray-500 transition duration-500 ease-in-out`,
   })
 )<{ variant: ButtonVariants }>``;
 
