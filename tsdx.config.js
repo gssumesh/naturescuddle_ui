@@ -1,5 +1,6 @@
 
 const postcss = require('rollup-plugin-postcss');
+const images = require('@rollup/plugin-image');
 
 module.exports = {
   rollup(config, options) {
@@ -15,6 +16,11 @@ module.exports = {
         },
       })
     );
+
+    config.plugins.push(
+      images({ include: ['**/*.png', '**/*.jpg'] })
+    );
+
     return config;
   },
 };
