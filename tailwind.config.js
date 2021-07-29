@@ -10,17 +10,23 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    minHeight: {
+      '2/3': '67vh',
+      ...defaultTheme.minHeight
+     },
     colors: {
       'primary': '#333333',
       'primary-bg': '#F9F7F5',
       'nc-sage': '#90A892',
       'nc-dark-sage': '#435944',
+      'nc-grey': '#dbdbdb',
       ...defaultTheme.colors
     },
     extend: {
       fontFamily: {
         serif: ['Varela Round','Roboto', ...defaultTheme.fontFamily.serif],
-        sans: ['Flamenco', ...defaultTheme.fontFamily.sans]
+        sans: ['Flamenco', ...defaultTheme.fontFamily.sans],
+        quote: ['Work Sans'],
       },
     },
   },
@@ -53,7 +59,7 @@ module.exports = {
           'base-100' : '#ffffff',          /* Base color of page, used for blank backgrounds */
           'base-200' : '#f9fafb',          /* Base color, a little darker */
           'base-300' : '#d1d5db',          /* Base color, even more darker */
-          'base-content' : '#1f2937',      /* Foreground content color to use on base color */
+          'base-content' : '#221e20',//'#1f2937',      /* Foreground content color to use on base color */
 
           'info' : '#2094f3',              /* Info */
           'success' : '#009485',           /* Success */

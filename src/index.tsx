@@ -4,3 +4,4 @@ export * from './Hero';
 export * from './HeroWithCard';
 export * from './Nav';
 export * from './PageHome';
+export * from './Quote';
