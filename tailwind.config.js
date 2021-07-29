@@ -34,12 +34,12 @@ module.exports = {
     themes: [
       {
         'naturescuddle': {                 /* your theme name */
-          'primary' : '#a991f7',           /* Primary color */
-          'primary-focus' : '#8462f4',     /* Primary color - focused */
+          'primary' : '#90A892',           /* Primary color */
+          'primary-focus' : '#435944',     /* Primary color - focused */
           'primary-content' : '#ffffff',   /* Foreground content color to use on primary color */
 
-          'secondary' : '#f6d860',         /* Secondary color */
-          'secondary-focus' : '#f3cc30',   /* Secondary color - focused */
+          'secondary' : '#90A892',         /* Secondary color */
+          'secondary-focus' : '#435944',   /* Secondary color - focused */
           'secondary-content' : '#ffffff', /* Foreground content color to use on secondary color */
 
           'accent' : '#37cdbe',            /* Accent color */

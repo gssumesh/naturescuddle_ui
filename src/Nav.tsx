@@ -5,17 +5,16 @@ export interface NavProps {}
 
 export const Nav: FC<NavProps> = ({}) => {
   return (
-    <div className="navbar mb-2 shadow-lg bg-primary-bg text-neutral-content rounded-box">
+    <div className="navbar mb-2 bg-primary-bg text-neutral-content rounded-box">
       <div className="px-2 mx-2 navbar-start">
         {/* <span className="text-lg font-bold">DaisyUI</span> */}
         <img src={logo} className="max-h-20"/>
       </div>
       <div className="navbar-center hidden px-2 mx-2 lg:flex">
         <div className="flex items-stretch">
-          <a className="btn btn-ghost btn-sm rounded-btn text-black">Home</a>
-          <a className="btn btn-ghost btn-sm rounded-btn">Portfolio</a>
-          <a className="btn btn-ghost btn-sm rounded-btn">About</a>
-          <a className="btn btn-ghost btn-sm rounded-btn">Contact</a>
+          <a className="btn btn-ghost btn-sm rounded-btn text-nc-dark-sage">Shop</a>
+          <a className="btn btn-ghost btn-sm rounded-btn text-nc-dark-sage">Learn</a>
+          <a className="btn btn-ghost btn-sm rounded-btn text-nc-dark-sage">About</a>
         </div>
       </div>
       <div className="navbar-end">
