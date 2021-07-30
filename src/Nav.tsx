@@ -6,9 +6,8 @@ export interface NavProps {}
 
 export const Nav: FC<NavProps> = ({}) => {
   return (
-    <div className="navbar mb-2 bg-primary-bg text-primary rounded-box">
+    <div className="navbar sticky top-0 z-50 md:px-8 mb-2 bg-primary-bg text-primary">
       <div className="px-2 mx-2 navbar-start">
-        {/* <span className="text-lg font-bold">DaisyUI</span> */}
         <img src={logo} className="max-h-20"/>
       </div>
       <div className="navbar-center hidden px-2 mx-2 lg:flex">

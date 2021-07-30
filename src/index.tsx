@@ -2,6 +2,8 @@ export * from './Thing';
 export * from './Button';
 export * from './Hero';
 export * from './HeroWithCard';
+export * from './HeroCarousel';
 export * from './Nav';
 export * from './PageHome';
 export * from './Quote';
+export * from './SectionCarousel';

@@ -20,6 +20,8 @@ module.exports = {
       'nc-sage': '#90A892',
       'nc-dark-sage': '#435944',
       'nc-grey': '#dbdbdb',
+      'nc-grey-2': '#f2f4f6',
+      'nc-grey-3': '#feffff',
       ...defaultTheme.colors
     },
     extend: {
