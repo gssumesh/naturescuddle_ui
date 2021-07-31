@@ -18,7 +18,7 @@ module.exports = {
     );
 
     config.plugins.push(
-      images({ include: ['**/*.png', '**/*.jpg'] })
+      images({ include: ['**/*.png', '**/*.jpg', , '**/*.jpeg'] })
     );
 
     return config;
