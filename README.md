@@ -1,4 +1,5 @@
 # TSDX React w/ Storybook User Guide
+https://dev.to/hamatoyogi/the-quickest-way-to-kickoff-a-react-typescript-storybook-project-4842
 
 Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
 

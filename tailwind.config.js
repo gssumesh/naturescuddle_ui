@@ -2,11 +2,11 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: [
-    './src/components/**/*.tsx',
+    './src/**/*.tsx',
 
     // This is a convention for files that only include Styled Components.
     // If you don't use this convention feel free to skip it.
-    './src/components/**/*.styled.tsx',
+    './src/**/*.styled.tsx',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
